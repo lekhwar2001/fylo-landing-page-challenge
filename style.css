@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none ;
+    
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+
+.NavUl{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;    
+    }
+
+.NavLi{
+padding: 9px;
+}
+
+.c1
+{
+    padding: 4%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c1a
+{
+    width: 40vw;   
+    height: 45vh; 
+}
+
+
+.i1
+{
+    width: 45vw;   
+    height: 45vh; 
+}
+
+.c2
+{
+    background-image: url("images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 4%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c2a
+{
+    width: 470px;   
+    height: auto; 
+}
+
+.a1{
+    color: hsl(170, 45%, 43%);
+    text-decoration: underline;
+}
+
+
+.i2
+{
+    width: 45vw;   
+    height: 45vh; 
+}
+
+figure {
+    margin: 30px 0;
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.fig_image{
+    border-radius: 50%;
+}
+
+figcaption {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 25px 0;
+    height: 80px;
+}
+
+.fig_cap{
+    padding: 15px;
+}
+
+.c3
+{
+    padding: 2.5%;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.c3a
+{
+    width: 470px;   
+    height: auto; 
+}
+
+.c3b
+{
+    width: 470px;   
+    height: auto; 
+}
+
+
+footer{
+    padding: 2.5%;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    
+    
+}
+
+
+
+.c4b
+{
+   display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+
+.c4b a{
+    color: whitesmoke;
+}
+
+.attribution{
+    padding: 1%;
+}
+
+/*
+button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    max-width: 12.5rem;
+}
+
+#top_b{
+    margin: 0 0 0 8px;
+}
+
+.input_2{
+    width: 350px;
+    height: 30px;
+    margin: 15px 0 15px 0;
+}
+
+
+
+
+.SocialMedia{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.social__liks{
+    filter: brightness(0) invert(1);
+}
+
+
+ */
